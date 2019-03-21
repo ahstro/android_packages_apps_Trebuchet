@@ -15,6 +15,8 @@
  */
 package com.android.launcher3ahstro.lineage.trust;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Animatable2;
 import android.graphics.drawable.AnimatedVectorDrawable;
 import android.graphics.drawable.Drawable;
@@ -94,6 +96,14 @@ class TrustAppsAdapter extends RecyclerView.Adapter<TrustAppsAdapter.ViewHolder>
                     R.drawable.ic_hidden_locked : R.drawable.ic_hidden_unlocked);
             mProtectedView.setImageResource(component.isProtected() ?
                     R.drawable.ic_protected_locked : R.drawable.ic_protected_unlocked);
+
+            mIconView.setOnClickListener(v -> {
+                Context context = v.getContext();
+                Intent launchIntent = context.getPackageManager().getLaunchIntentForPackage(component.getPackageName());
+                if (launchIntent != null) {
+                    context.startActivity(launchIntent);
+                }
+            });
 
             mHiddenView.setOnClickListener(v -> {
                 component.invertVisibility();
