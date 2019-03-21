@@ -98,7 +98,7 @@ LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3
 
 LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-common.xml
 
-LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3.*
+LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3ahstro.*
 
 include $(BUILD_PACKAGE)
 
@@ -132,7 +132,7 @@ LOCAL_FULL_LIBS_MANIFEST_FILES := \
     $(LOCAL_PATH)/AndroidManifest-common.xml
 
 LOCAL_MANIFEST_FILE := go/AndroidManifest.xml
-LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3.*
+LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3ahstro.*
 include $(BUILD_PACKAGE)
 
 #
@@ -187,7 +187,7 @@ LOCAL_FULL_LIBS_MANIFEST_FILES := \
     $(LOCAL_PATH)/AndroidManifest-common.xml
 
 LOCAL_MANIFEST_FILE := quickstep/AndroidManifest.xml
-LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3.*
+LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3ahstro.*
 
 include $(BUILD_PACKAGE)
 
@@ -227,7 +227,7 @@ LOCAL_FULL_LIBS_MANIFEST_FILES := \
     $(LOCAL_PATH)/AndroidManifest-common.xml
 
 LOCAL_MANIFEST_FILE := quickstep/AndroidManifest.xml
-LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3.*
+LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3ahstro.*
 include $(BUILD_PACKAGE)
 
 

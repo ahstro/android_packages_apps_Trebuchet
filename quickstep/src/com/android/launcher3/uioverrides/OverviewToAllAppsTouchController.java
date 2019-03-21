@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides;
+package com.android.launcher3ahstro.uioverrides;
 
-import static com.android.launcher3.LauncherState.ALL_APPS;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.LauncherState.OVERVIEW;
+import static com.android.launcher3ahstro.LauncherState.ALL_APPS;
+import static com.android.launcher3ahstro.LauncherState.NORMAL;
+import static com.android.launcher3ahstro.LauncherState.OVERVIEW;
 
 import android.view.MotionEvent;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
+import com.android.launcher3ahstro.AbstractFloatingView;
+import com.android.launcher3ahstro.Launcher;
+import com.android.launcher3ahstro.LauncherState;
+import com.android.launcher3ahstro.userevent.nano.LauncherLogProto;
 import com.android.quickstep.TouchInteractionService;
 import com.android.quickstep.views.RecentsView;
 

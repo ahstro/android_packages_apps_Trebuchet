@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.uioverrides;
+package com.android.launcher3ahstro.uioverrides;
 
 import android.content.SharedPreferences;
 import android.os.RemoteException;
@@ -22,12 +22,12 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.touch.TouchEventTranslator;
-import com.android.launcher3.util.TouchController;
+import com.android.launcher3ahstro.AbstractFloatingView;
+import com.android.launcher3ahstro.Launcher;
+import com.android.launcher3ahstro.LauncherState;
+import com.android.launcher3ahstro.Utilities;
+import com.android.launcher3ahstro.touch.TouchEventTranslator;
+import com.android.launcher3ahstro.util.TouchController;
 import com.android.quickstep.RecentsModel;
 import com.android.systemui.shared.recents.ISystemUiProxy;
 

@@ -32,10 +32,10 @@ import android.provider.Settings;
 import android.support.annotation.WorkerThread;
 import android.util.Log;
 
-import com.android.launcher3.MainThreadExecutor;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.DiscoveryBounce;
-import com.android.launcher3.util.UiThreadHelper;
+import com.android.launcher3ahstro.MainThreadExecutor;
+import com.android.launcher3ahstro.Utilities;
+import com.android.launcher3ahstro.allapps.DiscoveryBounce;
+import com.android.launcher3ahstro.util.UiThreadHelper;
 import com.android.systemui.shared.recents.ISystemUiProxy;
 
 import java.util.concurrent.ExecutionException;

@@ -40,11 +40,11 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.BaseDraggingActivity;
-import com.android.launcher3.R;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action.Direction;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action.Touch;
+import com.android.launcher3ahstro.BaseActivity;
+import com.android.launcher3ahstro.BaseDraggingActivity;
+import com.android.launcher3ahstro.R;
+import com.android.launcher3ahstro.userevent.nano.LauncherLogProto.Action.Direction;
+import com.android.launcher3ahstro.userevent.nano.LauncherLogProto.Action.Touch;
 import com.android.quickstep.TaskSystemShortcut;
 import com.android.quickstep.TaskUtils;
 import com.android.quickstep.views.RecentsView.PageCallbacks;
